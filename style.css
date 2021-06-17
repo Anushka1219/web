@@ -1,0 +1,22 @@
+body{background-image: url("bg.jpg");background-repeat: no-repeat;background-size: cover;}
+
+
+
+p{ text-align: center; font-size: 75px;font-family: 'Brush Script MT';padding: 100px;}
+       
+img{
+  margin-left: 200px; border-style: double; border-width: 10px;
+}       
+
+.header{display: flex; background-image: none;justify-content: center;align-content: center; height: 300px;}
+p{text-align: center;padding-top: 0px;}
+
+.grid{padding-top: 50px;}
+
+.header:hover{
+  background-image: url("OIP.jpg");
+  
+}
+.header:hover p{
+  visibility: hidden;
+}
